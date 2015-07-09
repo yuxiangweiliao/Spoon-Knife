@@ -2,7 +2,7 @@
 
 该文档旨在帮你编写 HomeKit app。HomeKit 库是用来沟通和控制家庭自动化配件的，这些家庭自动化配件都支持苹果的 HomeKit Accessory Protocol。HomeKit 应用程序可让用户发现兼容配件并配置它们。用户可以创建一些 action 来控制智能配件（例如恒温或者光线强弱），对其进行分组，并且可以通过 Siri 触发。HomeKit 对象被存储在用户 iOS 设备的数据库中，并且通过 iCloud 还可以同步到其他 iOS 设备。HomeKit  支持远程访问智能配件，并支持多个用户设备和多个用户。HomeKit 还对用户的安全和隐私做了处理。
 
-![](images\1.png) 
+![](images/1.png) 
 
 `注意`：如果你是开发设计 HomeKit 硬件的供应商，你可以去
 Hardware Developers 下的 [HomeKit](https://developer.apple.com/homekit/) 页面了解 MFi Program 相关信息，也可以阅读 [External Accessory Programming Topics](https://developer.apple.com/library/ios/featuredarticles/ExternalAccessoryPT/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009502)。
@@ -35,11 +35,11 @@ HomeKit 应用服务只提供给通过 App Store 发布的 app 应用程序。�
 
 在你开始使用 HomeKit 之前，请确保你已经完成以下任务。创建你团队的配置文件（Provisioning Profile），请参阅：[App Distribution Quick Start](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Introduction/Introduction.html#//apple_ref/doc/uid/TP40013839)。
   
-![](images\2.png) 
+![](images/2.png) 
 
 当你成功地完成了之前的任务后，General 面板中 Team 弹出菜单中的错误信息和问题修复按钮将会消失。代码签名配置被成功创建后会展示下方的 General 面板。  
 
-![](images\3.png) 
+![](images/3.png) 
 
 解决代码签名和证书配置问题，请参阅 [App Distribution Guide](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40012582) 文档中 [Troubleshooting](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/Troubleshooting/Troubleshooting.html#//apple_ref/doc/uid/TP40012582-CH5) 这一节。
 
